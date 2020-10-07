@@ -1,6 +1,77 @@
-body {
-  color: #212121;
+/* Палитра макета */
+/* основно фон #FFFFFF */
+/* дополнительный фон #F5F4FA */
+/* цвет героя и футера #2F303A */
+/* основнй текст #757575 */
+/* Заголовки #212121 */
+/* цвет лого, кнопок, активных ссылок #2196F3 */
+/* лого1 вторая часть #000000 */
+/* лого2 вторая часть #ffffff */
+:root {
+  --primary-text-color: #757575;
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #f5f4fa;
+  --footer-hero-bg-color: #2f303a;
+  --titel-link-color: #212121;
+  --secondary-link-color: #757575;
+  --accent-color: #2196f3;
+  --logo-up-color: #000000;
+  --logo-down-color: #ffffff;
+  --address-color: #ffffff;
+  --address-secondary-color: rgba(255, 255, 255, 0.6);
 }
-ul {
+body {
+  color: var(--primary-text-color);
+  background-color: var(--primery-bg-color);
+}
+.list {
   list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* Логотип */
+.logo {
+  color: var(--logo-up-color);
+  /* font-family: Raleway;
+  font-style: normal;
+  font-weight: bold; */
+  font-size: 26px;
+  line-height: 31px;
+  width: 145px;
+  height: 31px;
+  /* margin-left: 215px;
+  margin-top: 24px; */
+}
+.footer > .logo {
+  color: var(--logo-down-color);
+}
+.logo-text {
+  color: var(--accent-color);
+}
+/* Навигация сайта */
+.nav-link {
+  text-decoration: none;
+  color: var(--titel-link-color);
+}
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--accent-color);
+}
+/* контакты */
+.contacts .link {
+  color: var(--secondary-link-color);
+}
+.contacts .link:hover,
+.contacts .link:focus {
+  color: var(--accent-color);
+}
+/* Блок герой */
+.hero {
+  background-color: var(--footer-hero-bg-color);
+  width: 1600px;
+  height: 600px;
+}
+.hero-titel {
+  color: var(--primary-bg-color);
 }
