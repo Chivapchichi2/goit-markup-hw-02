@@ -30,6 +30,9 @@ body {
 .link {
   text-decoration: none;
 }
+.titel {
+  color: var(--titel-link-color);
+}
 /* Логотип */
 .logo {
   color: var(--logo-up-color);
@@ -50,12 +53,14 @@ body {
   color: var(--accent-color);
 }
 /* Навигация сайта */
-.nav-link {
-  text-decoration: none;
+.nav > .list .link {
   color: var(--titel-link-color);
 }
-.nav-link:hover,
-.nav-link:focus {
+.nav > .list .link:hover,
+.nav > .list .link:focus {
+  color: var(--accent-color);
+}
+.nav > .list .link.current {
   color: var(--accent-color);
 }
 /* контакты */
@@ -69,9 +74,30 @@ body {
 /* Блок герой */
 .hero {
   background-color: var(--footer-hero-bg-color);
-  width: 1600px;
-  height: 600px;
+  /* width: 1600px;
+  height: 600px; */
 }
 .hero-titel {
   color: var(--primary-bg-color);
+}
+/* Блок Каманда */
+.team {
+  /* width: 1600px;
+  height: 648px; */
+  background-color: var(--secondary-bg-color);
+}
+.card {
+  width: 270px;
+  height: 368px;
+  background-color: var(--primary-bg-color);
+}
+/* Футер */
+.footer {
+  background-color: var(--footer-hero-bg-color);
+}
+.address {
+  color: var(--address-color);
+}
+.address .link {
+  color: var(--address-secondary-color);
 }
