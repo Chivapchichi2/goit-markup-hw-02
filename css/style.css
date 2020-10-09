@@ -33,13 +33,16 @@ body {
 .titel {
   color: var(--titel-link-color);
 }
+.header {
+  border: 1px solid #ececec;
+}
 /* Логотип */
 .logo {
-  color: var(--logo-up-color);
-  /* font-family: Raleway;
+  /* color: var(--logo-up-color);
+  font-family: Raleway;
   font-style: normal;
-  font-weight: bold; */
-  font-size: 26px;
+  font-weight: bold;
+  font-size: 26px; */
   line-height: 31px;
   width: 145px;
   height: 31px;
@@ -80,6 +83,10 @@ body {
 .hero-titel {
   color: var(--primary-bg-color);
 }
+.button {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+}
 /* Блок Каманда */
 .team {
   /* width: 1600px;
@@ -100,4 +107,14 @@ body {
 }
 .address .link {
   color: var(--address-secondary-color);
+}
+/* кнопки галереии */
+.galerry-button {
+  color: var(--titel-link-color);
+  background-color: var(--secondary-bg-color);
+}
+.galerry-button:hover,
+.galerry-button:focus {
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
 }
