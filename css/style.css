@@ -23,6 +23,10 @@
 body {
   color: var(--primary-text-color);
   background-color: var(--primery-bg-color);
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .list {
   list-style: none;
@@ -32,18 +36,26 @@ body {
 }
 .titel {
   color: var(--titel-link-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
-.header {
+/* .header {
   border: 1px solid #ececec;
-}
+} */
 /* Логотип */
 .logo {
-  /* color: var(--logo-up-color);
-  font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 26px; */
-  line-height: 31px;
+  color: var(--logo-up-color);
+  /* Для Олео */
+  /* font-family: Oleo Script, cursive;
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.38; */
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
   width: 145px;
   height: 31px;
   /* margin-left: 215px;
@@ -54,10 +66,19 @@ body {
 }
 .logo-text {
   color: var(--accent-color);
+  /* Для Олео */
+  /* font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19; */
 }
 /* Навигация сайта */
 .nav > .list .link {
   color: var(--titel-link-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .nav > .list .link:hover,
 .nav > .list .link:focus {
@@ -69,6 +90,10 @@ body {
 /* контакты */
 .contacts .link {
   color: var(--secondary-link-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .contacts .link:hover,
 .contacts .link:focus {
@@ -82,10 +107,28 @@ body {
 }
 .hero-titel {
   color: var(--primary-bg-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .button {
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+}
+/* Блок Наши приимущества */
+.advantages .titel {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: start;
 }
 /* Блок Каманда */
 .team {
@@ -97,6 +140,16 @@ body {
   width: 270px;
   height: 368px;
   background-color: var(--primary-bg-color);
+}
+.team .titel {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+.team .text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
 }
 /* Футер */
 .footer {
@@ -112,9 +165,26 @@ body {
 .galerry-button {
   color: var(--titel-link-color);
   background-color: var(--secondary-bg-color);
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
 }
 .galerry-button:hover,
 .galerry-button:focus {
   color: var(--primary-bg-color);
   background-color: var(--accent-color);
+}
+/* Карты галереи */
+.galerry-card {
+  color: var(--primary-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
+.galerry-card .titel {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  text-align: start;
 }
