@@ -141,12 +141,12 @@ body {
   height: 368px;
   background-color: var(--primary-bg-color);
 }
-.team .titel {
+.card > .titel {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
 }
-.team .text {
+.card > .text {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -157,6 +157,7 @@ body {
 }
 .address {
   color: var(--address-color);
+  font-style: normal;
 }
 .address .link {
   color: var(--address-secondary-color);
