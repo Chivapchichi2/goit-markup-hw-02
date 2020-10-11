@@ -47,11 +47,6 @@ body {
 /* Логотип */
 .logo {
   color: var(--logo-up-color);
-  /* Для Олео */
-  /* font-family: Oleo Script, cursive;
-  font-weight: 400;
-  font-size: 26px;
-  line-height: 1.38; */
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -66,11 +61,6 @@ body {
 }
 .logo-text {
   color: var(--accent-color);
-  /* Для Олео */
-  /* font-family: Raleway, sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19; */
 }
 /* Навигация сайта */
 .nav > .list .link {
